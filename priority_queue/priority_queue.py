@@ -52,7 +52,7 @@ class MinHeap:
     def peek(self):
         # TODO: Return (priority, item) but do NOT remove
         # If empty, return None (or raise an error)
-        pass
+        return self.data[0]
 
     def add(self, priority, item):
         # TODO: Add (priority, item) to end of list
